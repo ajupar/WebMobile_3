@@ -1,0 +1,4 @@
+// teht 3.3 tarkistetaan tallennetut muistiinpanot
+
+GET http://localhost:3001/reminders/
+

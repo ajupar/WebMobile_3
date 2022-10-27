@@ -1,0 +1,12 @@
+// teht 3.4, testataan uuden elementin lisäämistä
+// teht 3.5, testataan sisällöltään identtisen elementin lisäämistä
+// teht 3.11, post-käsky palvelimelle asti
+
+POST http://localhost:3001/reminders
+Content-Type: application/json
+
+{
+    "name": "no koklataan vielä toistekin meneekö oikeasti sinne mongoon palvelimelle asti ??",
+    "timestamp": "2021-04-13T19:45:00.000Z"
+}
+
